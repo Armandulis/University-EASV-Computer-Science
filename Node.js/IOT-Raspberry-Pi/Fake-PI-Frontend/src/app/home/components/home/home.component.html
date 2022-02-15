@@ -1,0 +1,75 @@
+<div class="row" style="align-content: center; margin: 2%;">
+  <div class="center" style="    margin-left: 18%;
+    margin-right: 18%;
+    width: auto;; /* Added */">
+    <div class="card" style="width: 70rem;">
+      <img class="card-img-top" src="https://i.imgur.com/d4Pqgfm.png" alt="Overview">
+      <div class="card-body">
+        <h5 class="card-title">Overview</h5>
+        <p class="card-text">Backend Http -> save data to mongo DB and send new message to MQTT</p>
+        <p class="card-text">Backend Socket -> Listen for when we need to receive new values from DB</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col">
+   <div class="card" style="width: 32rem;">
+      <img class="card-img-top" src="https://i.imgur.com/IpgRDXD.png" alt="Backend hosted on heroku">
+      <div class="card-body">
+        <h5 class="card-title">Nest.js ( Backend ) - hosted on Heroku</h5>
+        <p class="card-text">Backend is responsible for saving new sensor values to MongoDb. Then it sends new Message to CloudMQTT. In the backend we also have set up socket.io, which will inform all clients about new sensor values.</p>
+        <a href="https://iot-fake-pi.herokuapp.com/temperature/latest" class="btn btn-primary">Checkout backend</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col">
+      <div class="card" style="width: 32rem;">
+        <img class="card-img-top" src="https://i.imgur.com/R4Qrji1.png" alt="Send to mqtt">
+        <div class="card-body">
+          <h5 class="card-title">Backend Socket</h5>
+          <p class="card-text">In backend we listen for new messages from MQTT, once we receive a new message, we will emit/inform clients about new sensors data</p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="col">
+    <div class="card" style="width: 70rem;">
+      <img class="card-img-top" src="https://i.imgur.com/S9Dldoy.png" alt="MQTT">
+      <div class="card-body">
+        <h5 class="card-title">CloudMQTT</h5>
+        <p class="card-text">This is how messages look like in CloudMQTT</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row" style="margin-top: 2%">
+  <div class="col">
+    <div class="card" style="width: 70rem;">
+      <img class="card-img-top" src="https://i.imgur.com/MwELQSl.png" alt="CHARTS">
+      <div class="card-body">
+        <h5 class="card-title">Charts</h5>
+        <p class="card-text">Here you can see series of sensor data. Once new data is saved to the MongoDB, that data will also be displayed here.</p>
+        <a href="/charts" class="btn btn-primary">See charts</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card" style="width: 70rem;">
+      <img class="card-img-top" src="https://i.imgur.com/j5zdqDf.png" alt="PI CONSOLE">
+      <div class="card-body">
+        <h5 class="card-title">PI Console</h5>
+        <p class="card-text">In PI console, you can set current temperature and humidity. Also, in settings, you can set Max and Min temperatures.</p>
+        <a href="/console" class="btn btn-primary">See PI console</a>
+      </div>
+    </div>
+  </div>
+</div>
+

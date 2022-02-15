@@ -1,0 +1,15 @@
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\bin\Debug\PrimeGeneratorWithGUI.exe.config
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\bin\Debug\PrimeGeneratorWithGUI.exe
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\bin\Debug\PrimeGeneratorWithGUI.pdb
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.csprojAssemblyReference.cache
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\App.g.cs
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI_MarkupCompile.cache
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI_MarkupCompile.lref
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\MainWindow.baml
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.g.resources
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.Properties.Resources.resources
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.csproj.GenerateResource.cache
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.csproj.CoreCompileInputs.cache
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.exe
+C:\Users\Arman\source\repos\PrimeGenerator\PrimeGeneratorWithGUI\obj\Debug\PrimeGeneratorWithGUI.pdb

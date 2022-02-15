@@ -1,0 +1,20 @@
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.AssemblyInfo.cs
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.pdb
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.deps.json
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.pdb
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Core.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.pdb
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\bin\Debug\netcoreapp2.1\PetShop.Core.pdb
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.AssemblyInfo.cs
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.csproj.CopyComplete
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Infrastucture.Data\obj\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.pdb

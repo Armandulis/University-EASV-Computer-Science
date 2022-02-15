@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CompulsPetShop",
+    "\\PetShop",
+    "\\PetShop.Core",
+    "\\PetShop.Core.Entity",
+    "\\PetShop.Infrastructure.Static.Data",
+    "\\PetShopApp",
+    "\\PetShopCompulsory"
+  ],
+  "SelectedNode": "\\CompulsPetShop\\Printer.cs",
+  "PreviewInSolutionExplorer": false
+}

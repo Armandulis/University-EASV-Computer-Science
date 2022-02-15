@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/IOT-a2-Pi-simple-frontend",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

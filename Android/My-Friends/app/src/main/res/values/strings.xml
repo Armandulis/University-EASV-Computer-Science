@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">MyFriends</string>
+
+    //friend details textview and buttons
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="mail">Mail:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="web">Website:</string>
+    <string name="unknown">Unknown</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="picture_description">Friends picture</string>
+
+    // actionbar
+    <string name="order_by">Order by..</string>
+    <string name="order_name">name</string>
+    <string name="order_distance">distance</string>
+    <string name="view_as">View as..</string>
+    <string name="view_map">map</string>
+    <string name="view_list">list</string>
+    <string name="add_friend">Add friend</string>
+    <string name="import_friend">Import..</string>
+
+
+    // Actionbar labels
+    <string name="app_details">MyFriends - details</string>
+    <string name="app_edit">MyFriends - edit</string>
+    <string name="app_add">MyFriends - add</string>
+    <string name="app_map">MyFriends - map</string>
+
+    // API Keys
+    <string name="google_maps_api_key">AIzaSyBh4xtJYm_YTWooyC3ARs_1pT96mR05-h8</string>
+
+</resources>

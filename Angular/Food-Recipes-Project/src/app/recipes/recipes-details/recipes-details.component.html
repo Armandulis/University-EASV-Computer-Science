@@ -1,0 +1,54 @@
+<div class="container justify-content-center" *ngIf="recipe">
+  <div class="row" >
+    <div class="m-4 col">
+
+      <!-- Recipe's info card: -->
+
+      <div class="card " style="background-color: #F4976C;">
+        <img class="card-img-top" *ngIf="recipe.url" [src]="recipe.url"  alt="Recipe Caption">
+        <div class="card-body">
+          <h5 align="Center" class="card-title">{{recipe.name}}</h5>
+          <p class="card-text"><strong>Approximately cook time:</strong>  {{recipe.cookTime}}</p>
+          <p class="card-text"><strong>For:</strong>  {{recipe.portion}}</p>
+          <p class="card-text"><strong>Type:</strong> {{recipe.type}}</p>
+        </div>
+      </div>
+
+
+      <!-- Ingredients card: -->
+    </div>
+    <div class="card m-4 col-lg-6" style="background-color: #F4976C;" >
+      <div class="card-body">
+        <h5 class="card-title" align="Center">You'll need:</h5>
+        <div *ngIf="recipe.ingredients" class="row justify-content-center ">
+          <div  *ngFor="let ingredient of recipe.ingredients" style="background-color: #FBE8A6;" class="card m-1 " >
+            <div class="card-body">
+              <h5 class="card-title">{{ingredient.name}}</h5>
+              <p class="card-text">Amount: {{ingredient.amount}}</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
+    </div>
+
+  </div>
+    <!-- Instructions card: -->
+    <div>
+      <div class="card mb-3" style="background-color: #F4976C;" >
+        <div class="card-body">
+          <h5 class="card-title"><strong>Instructions:</strong></h5>
+          <p class="card-text">{{recipe.howTo}}</p>
+        </div>
+      </div>
+    </div>
+
+  <div class="justify-content-end" style=" display: flex">
+    <button  class="btn btn-warning justify-content-center " style="display: flex;" routerLink="/recipes/update/{{recipe.id}}">Update Recipe</button>
+  </div>
+
+</div>
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="history_name">Dice Roller - History</string>
+    <string name="view_history_button">History</string>
+    <string name="roll_dice_button">Roll the Dice</string>
+    <string name="history_clear_button">Clear history</string>
+    <string-array name="dice_amount">
+        <item>One dice</item>
+        <item>Two dices</item>
+        <item>Three dices</item>
+        <item>Four dices</item>
+        <item>Five dices</item>
+        <item>Six dices</item>
+    </string-array>
+    <string name="dice_image_description">Dice image</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytunes.GUI.NewSongController">
+   <children>
+      <Label layoutX="74.0" layoutY="65.0" text="Title:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="118.0" text="Artist:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="168.0" text="Category:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="220.0" text="Time:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldTitle" layoutX="168.0" layoutY="63.0" />
+      <TextField fx:id="textFieldArtist" layoutX="168.0" layoutY="116.0" />
+      <TextField fx:id="textFieldTime" layoutX="168.0" layoutY="218.0" />
+      <ComboBox fx:id="ComboBoxCategory" layoutX="205.0" layoutY="166.0" prefWidth="150.0" />
+      <Label layoutX="70.0" layoutY="264.0" text="File:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldFile" layoutX="168.0" layoutY="263.0" />
+      <ButtonBar layoutX="270.0" layoutY="316.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#buttonSave" text="Save" />
+            <Button fx:id="buttonClosefx" mnemonicParsing="false" onAction="#buttonCancel" text="Cancel" />
+        </buttons>
+      </ButtonBar>
+      <Button layoutX="387.0" layoutY="263.0" mnemonicParsing="false" onAction="#buttonChoose" text="Choose.." />
+      <Label layoutX="212.0" layoutY="14.0" text="New Song">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelError" layoutX="28.0" layoutY="326.0" style="-fx-background-color: lightblue;">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

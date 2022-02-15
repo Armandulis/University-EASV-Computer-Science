@@ -1,0 +1,55 @@
+<div class="container">
+  <h1 style="text-align: center; margin: 2%;">PI Console</h1>
+
+<!--  Temperature card-->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Temperature sensor</h5>
+
+      <label for="temperatureSlider" class="card-subtitle mb-2 text-muted">Sets temperature on current slide's value:</label>
+      <input *ngIf="settingsMinForm.value && settingsMaxForm.value" [formControl]="temperatureForm" min="{{settingsMinForm.value}}" max="{{settingsMaxForm.value}}" type="range" class="form-range" id="temperatureSlider">
+
+      <div class="row">
+        <div class="col" style="text-align: left;"><h6>{{settingsMinForm.value}} °C</h6></div>
+        <div class="col" style="text-align: center;"><h6>Current temperature: {{temperatureForm.value}} °C</h6></div>
+        <div class="col" style="text-align: right;"><h6>{{settingsMaxForm.value}} °C</h6></div>
+      </div>
+
+    </div>
+  </div>
+
+<br>
+
+  <!-- Humidity card-->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Humidity sensor</h5>
+
+      <div style="max-width: 15rem;">
+        <label for="humidityInput" class="card-subtitle mb-2 text-muted">Sets humidity based current input:</label>
+        <input [formControl]="humidityForm" value="{{humidityForm.value}}" type="number" class="form-control" id="humidityInput" aria-describedby="Humidity sensor">
+      </div>
+
+    </div>
+  </div>
+  <br>
+
+  <!-- Settings card-->
+  <div class="card disabled">
+    <div class="card-body">
+      <h5 class="card-title">Settings</h5>
+
+      <div style="max-width: 15rem;">
+        <label for="settingsMaxInput" class="card-subtitle mb-2 text-muted">Min temperature</label>
+        <input [formControl]="settingsMinForm"  value="{{settingsMinForm.value}}" type="number" class="form-control" id="settingsMaxInput" aria-describedby="PI settings">
+      </div>
+
+      <div style="max-width: 15rem;">
+        <label for="settingsMinInput" class="card-subtitle mb-2 text-muted">Max temperature</label>
+        <input [formControl]="settingsMaxForm"  value="{{settingsMaxForm.value}}" type="number" class="form-control" id="settingsMinInput" aria-describedby="PI settings">
+      </div>
+
+    </div>
+  </div>
+
+</div>

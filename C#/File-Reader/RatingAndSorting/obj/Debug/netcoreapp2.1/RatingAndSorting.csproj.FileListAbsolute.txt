@@ -1,0 +1,12 @@
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\bin\Debug\netcoreapp2.1\RatingAndSorting.deps.json
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\bin\Debug\netcoreapp2.1\RatingAndSorting.dll
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\bin\Debug\netcoreapp2.1\RatingAndSorting.pdb
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\bin\Debug\netcoreapp2.1\Entities.Json.dll
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\bin\Debug\netcoreapp2.1\Entities.Json.pdb
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.csprojAssemblyReference.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.csproj.CoreCompileInputs.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.AssemblyInfoInputs.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.AssemblyInfo.cs
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.csproj.CopyComplete
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.dll
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\RatingAndSorting\obj\Debug\netcoreapp2.1\RatingAndSorting.pdb

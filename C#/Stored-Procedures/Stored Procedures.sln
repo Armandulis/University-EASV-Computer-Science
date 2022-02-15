@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stored Procedures", "Stored Procedures\Stored Procedures.csproj", "{015C476B-54D5-4508-8210-35554CE12605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{015C476B-54D5-4508-8210-35554CE12605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015C476B-54D5-4508-8210-35554CE12605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015C476B-54D5-4508-8210-35554CE12605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015C476B-54D5-4508-8210-35554CE12605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A95048-62D7-4DBD-9126-A52960A68D64}
+	EndGlobalSection
+EndGlobal

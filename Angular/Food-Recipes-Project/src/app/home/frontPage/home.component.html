@@ -1,0 +1,52 @@
+<div class="container mt-2">
+  <h1 align="center">Share Your Recipe!</h1>
+
+  <carousel >
+    <slide>
+      <img routerLink="/recipes/add"  [src]="recipes[0].url" *ngIf="recipes[0] && recipes[0].url" alt="first slide" style="display: block; width: 100%;">
+      <div class="carousel-caption">
+        <h4>Share your recipe now!</h4>
+      </div>
+    </slide>
+    <slide *ngIf="recipes[1] && recipes[1].url">
+      <img routerLink="/recipes" [src]="recipes[1].url"   alt="second slide" style="display: block; width: 100%;">
+      <div class="carousel-caption">
+        <h4>Find desired Dishes</h4>
+      </div>
+    </slide>
+    <slide *ngIf="recipes[2] && recipes[2].url" >
+      <img routerLink="/recipes" [src]="recipes[2].url" alt="third slide" style="display: block; width: 100%;">
+      <div class="carousel-caption">
+        <h4>Unique Deserts</h4>
+      </div>
+    </slide>
+  </carousel>
+  <p align="center">
+    A simple website created for finding and sharing recipes. Fast and simple, choose your taste, time or portion!
+    Feel free to share your recipes, it's anonymous and fast - simple design for complicated recipes. Search for recipes
+    ,at the top right, by cook time, portion, type or name.
+  </p>
+  <!--
+  should contain few random Recipes
+  routerLink="/recipes"
+routerLink="/recipes/{{recipe.id}}"
+  -->
+
+  <div class=" ">
+    <div>
+        <div class="row justify-content-center">
+            <div  *ngFor="let recipe of recipes"  class="card buffer" style="width: 17rem; background-color: #FBE8A6;">
+              <img routerLink="/recipes/{{recipe.id}}" class="card-img-top" [src]="recipe.url" *ngIf="recipe.url" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{recipe.name}}</h5>
+                <p class="card-text">Cooking time: {{recipe.cookTime}}</p>
+
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Arman\Desktop\petshop\Login\bin\Release\netstandard2.0\Login.deps.json
+C:\Users\Arman\Desktop\petshop\Login\bin\Release\netstandard2.0\Login.dll
+C:\Users\Arman\Desktop\petshop\Login\bin\Release\netstandard2.0\Login.pdb
+C:\Users\Arman\Desktop\petshop\Login\bin\Release\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Arman\Desktop\petshop\Login\bin\Release\netstandard2.0\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.AssemblyInfo.cs
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.csproj.CopyComplete
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.dll
+C:\Users\Arman\Desktop\petshop\Login\obj\Release\netstandard2.0\Login.pdb

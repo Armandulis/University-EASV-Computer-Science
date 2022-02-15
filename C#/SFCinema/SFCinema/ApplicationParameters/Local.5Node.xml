@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/SFCinema" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CinemaAPI_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="CinemaAPI_InstanceCount" Value="1" />
+    <Parameter Name="FoodApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="FoodApi_InstanceCount" Value="1" />
+    <Parameter Name="TicketsApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="TicketsApi_InstanceCount" Value="1" />
+  </Parameters>
+</Application>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="SFCinemaType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="CinemaAPI_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="CinemaAPI_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="FoodApi_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="FoodApi_InstanceCount" DefaultValue="-1" />
+    <Parameter Name="TicketsApi_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="TicketsApi_InstanceCount" DefaultValue="-1" />
+  </Parameters>
+  <!-- Import the ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
+       should match the Name and Version attributes of the ServiceManifest element defined in the 
+       ServiceManifest.xml file. -->
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="CinemaAPIPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[CinemaAPI_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="FoodApiPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[FoodApi_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="TicketsApiPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[TicketsApi_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <DefaultServices>
+    <!-- CINEMA SERVICE -->
+    <!-- The section below creates instances of service types, when an instance of this 
+         application type is created. You can also create one or more instances of service type using the 
+         ServiceFabric PowerShell module.
+         
+         The attribute ServiceTypeName below must match the name defined in the imported ServiceManifest.xml file. -->
+    <Service Name="CinemaAPI" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="CinemaAPIType" InstanceCount="[CinemaAPI_InstanceCount]">
+        <SingletonPartition />
+        <LoadMetrics>
+          <LoadMetric Name="MetricB" Weight="High" />
+        </LoadMetrics>
+        <!-- AUTOSCALING POLICIES 
+        <ServiceScalingPolicies>
+          <ScalingPolicy>
+            <AveragePartitionLoadScalingTrigger MetricName="MetricB" LowerLoadThreshold="1" UpperLoadThreshold="2" ScaleIntervalInSeconds="100" />
+            <InstanceCountScalingMechanism MinInstanceCount="3" MaxInstanceCount="4" ScaleIncrement="1" />
+          </ScalingPolicy>
+          
+        </ServiceScalingPolicies>
+      -->
+        <!-- AUTOSCALING POLICIES 
+        <ServiceScalingPolicies>
+          <ScalingPolicy>
+            <AveragePartitionLoadScalingTrigger MetricName="MetricB" LowerLoadThreshold="1" UpperLoadThreshold="2" ScaleIntervalInSeconds="100" />
+            <InstanceCountScalingMechanism MinInstanceCount="3" MaxInstanceCount="4" ScaleIncrement="1" />
+          </ScalingPolicy>
+        </ServiceScalingPolicies>
+        -->
+        <!-- AUTOSCALING POLICIES 
+        <ServiceScalingPolicies>
+          <ScalingPolicy>
+            <AveragePartitionLoadScalingTrigger MetricName="MetricB" LowerLoadThreshold="1" UpperLoadThreshold="2" ScaleIntervalInSeconds="100" />
+            <InstanceCountScalingMechanism MinInstanceCount="3" MaxInstanceCount="4" ScaleIncrement="1" />
+          </ScalingPolicy>
+        </ServiceScalingPolicies>
+        -->
+      </StatelessService>
+    </Service>
+    <!-- FOOD SERVICE -->
+    <Service Name="FoodApi" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="FoodApiType" InstanceCount="[FoodApi_InstanceCount]">
+        <SingletonPartition />
+        <LoadMetrics>
+          <LoadMetric Name="MetricB" Weight="High" />
+        </LoadMetrics>
+      </StatelessService>
+    </Service>
+    <!-- TICKET SERVICE -->
+    <Service Name="TicketsApi" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="TicketsApiType" InstanceCount="[TicketsApi_InstanceCount]">
+        <SingletonPartition />
+        <LoadMetrics>
+          <LoadMetric Name="MetricB" Weight="High" />
+        </LoadMetrics>
+      </StatelessService>
+    </Service>
+  </DefaultServices>
+</ApplicationManifest>

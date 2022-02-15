@@ -1,0 +1,47 @@
+
+<li *ngFor="let recipe of recipes | async">
+  <section class="product">
+    <div class="product__photo">
+      <div class="photo-container">
+        <div class="photo-main">
+          <div class="controls">
+          </div>
+          <img  src="{{recipe.url}}">
+        </div>
+        <div class="photo-album"  >
+          <ul>
+            <li><img src="https://previews.123rf.com/images/natika/natika1204/natika120402681/13331189-round-sandwich-bun-with-sesame-seeds-isolated-on-white-background.jpg" alt=""></li>
+            <li><img src="https://www.featurepics.com/StockImage/20080616/raw-hamburger-meat-stock-image-770824.jpg"></li>
+            <li><img src="https://previews.123rf.com/images/eremin/eremin1801/eremin180100026/94388309-slices-of-processed-cheese-on-a-white-background-square-slices-of-cheese-for-a-burger-closeup-.jpg" alt="green apple"></li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8SeZ5wfPxmQxN37MFN5idEFiUwzWDedCyL8NE93ZvAme82-RU" alt="apple top"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="recipe__info">
+      <div class="title">
+        <h1>{{recipe.name}}</h1>
+      </div>
+      <div class="container col-md-3 ">
+
+      </div>
+      <div class="variant">
+        <h3>Ingredients</h3>
+        <ul>
+          <div *ngFor="let ingredient of recipe.ingredients">
+            <h4> {{ingredient.name}}</h4>
+          </div>
+        </ul>
+      </div>
+      <div class="description">
+        <h3>Cooking Instructions</h3>
+        <ul>
+          <h2>{{recipe.cookTime}}</h2>
+          <li>{{recipe.howTo}}</li>
+        </ul>
+      </div>
+      <button routerLink="/recipes/{{recipe.id}}" class="buy--btn">Details</button>
+      <button (click)="deleteRecipe(recipe)" style="margin: 5px" class="buy--btn">Delete Recipe</button>
+    </div>
+
+  </section>

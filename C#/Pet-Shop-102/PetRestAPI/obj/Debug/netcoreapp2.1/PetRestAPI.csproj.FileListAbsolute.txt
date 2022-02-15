@@ -1,0 +1,45 @@
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.deps.json
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.runtimeconfig.json
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.runtimeconfig.dev.json
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.pdb
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.pdb
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.pdb
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.pdb
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorAssemblyInfo.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorAssemblyInfo.cs
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.AssemblyInfo.cs
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csproj.CopyComplete
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.dll
+C:\Users\Arman\Desktop\Computer Science\CS\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.deps.json
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.runtimeconfig.json
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.runtimeconfig.dev.json
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetRestAPI.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\Login.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\Login.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.Entity.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Core.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\bin\Debug\netcoreapp2.1\PetShop.Infrastucture.Data.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorAssemblyInfo.cache
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorAssemblyInfo.cs
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.AssemblyInfo.cs
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.csproj.CopyComplete
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.dll
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\PetRestAPI.pdb
+C:\Users\Arman\Desktop\petshop\PetRestAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

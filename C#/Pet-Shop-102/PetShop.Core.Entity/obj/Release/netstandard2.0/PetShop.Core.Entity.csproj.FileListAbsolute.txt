@@ -1,0 +1,9 @@
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\bin\Release\netstandard2.0\PetShop.Core.Entity.deps.json
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\bin\Release\netstandard2.0\PetShop.Core.Entity.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\bin\Release\netstandard2.0\PetShop.Core.Entity.pdb
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.csprojAssemblyReference.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.AssemblyInfoInputs.cache
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.AssemblyInfo.cs
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.dll
+C:\Users\Arman\Desktop\petshop\PetShop.Core.Entity\obj\Release\netstandard2.0\PetShop.Core.Entity.pdb

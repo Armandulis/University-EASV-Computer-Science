@@ -1,0 +1,9 @@
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\bin\Debug\netcoreapp2.1\Entities.Json.deps.json
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\bin\Debug\netcoreapp2.1\Entities.Json.dll
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\bin\Debug\netcoreapp2.1\Entities.Json.pdb
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.csprojAssemblyReference.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.csproj.CoreCompileInputs.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.AssemblyInfoInputs.cache
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.AssemblyInfo.cs
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.dll
+C:\Users\Arman\source\repos\JsonReaderAndMovieReviews\secondFileReader\Json\obj\Debug\netcoreapp2.1\Entities.Json.pdb
